@@ -1,0 +1,104 @@
+body{
+    background-color: blueviolet;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 750px;
+    border: 2px solid none;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+}
+.img {
+    background: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 750px;
+    border-radius: 25px 0 0 25px;
+    position: absolute;
+   
+}
+.min-container {
+    width: 400px;
+    margin-left: 530px;
+    margin-top: 10px
+
+}
+
+.main {
+   
+    width: 350px;
+    border: 1px solid none;
+    
+
+} 
+#per {
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main > h1 {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    color: hsl(212, 21%, 14%);
+    line-height: 45px;
+}
+.main > p {
+    color : hsl(228, 12%, 48%);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.price {
+    margin-top: 30px;
+}
+.price > h2 {
+    font-weight: 500;
+    font-size: 33px;
+    color: rgb(36, 98, 36);
+    font-family: 'Orelega One', cursive;
+}
+span {
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+    text-align: center;
+}
+#btn {
+    width: 350px;
+    margin-top: 30px;
+    background-color: rgb(36, 98, 36);
+    border-radius: 10px 10px;
+    border-color: transparent;
+    padding: 12px 0;
+}
+.material-symbols-outlined {
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+}
+.add {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: -34px;
+}
+.attribution {
+    margin-top: -50px;
+    padding-top: 170px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -50px;
+    color: hsl(212, 21%, 14%);
+}
